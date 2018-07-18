@@ -2,16 +2,16 @@ var katzDeli = [];
 
 function takeANumber (katzDeli, name) {
   katzDeli.push (name)
-  return ("Welcome, " + name + ". You are number " + (katzDeli.length) + " in line.")
+  return ("Welcome, " + name + ". You are number " + (katzDeli.lengh) + " in line")
 }
 
 var deliLine =[]
 function nowServing (katzDeli, deliLine) {
   
  if (katzDeli.length > 1 ){
-   
- return ("Currently serving " + katzDeli[0] + ".");
-katzDeli.shift ();
+  katzDeli.shift ();
+ return ("Currently serving " + katzDeli[0] + ".")
+
 
  }
  else {
